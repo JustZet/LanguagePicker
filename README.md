@@ -20,7 +20,7 @@ Applies changes only when .show(fragmentManager, "tag") is called
 ### Install:
 ```gradle
 dependencies {
-		implementation 'com.github.JustZet:LanguagePicker:1.0.4'
+		implementation 'com.github.JustZet:LanguagePicker:1.0.3'
 }
 ```
 
@@ -29,7 +29,7 @@ dependencies {
 ## DialogLanguagePicker.java
 ```java
 String language = Locale.US.getLanguage(); // en
-new DialogLanguagePicker(language) Adding selected language (optional)
+new DialogLanguagePicker(language) // Adding selected language (optional)
         .setLanguages(DialogLanguagePicker.getAllLanguages().subList(0, 20)) // Setting first 20 languages
         .setActionListener(new DialogLanguagePicker.ActionListener() {
             @Override
@@ -50,17 +50,12 @@ new DialogLanguagePicker(language) Adding selected language (optional)
 ```
 
 
-
-
-
-
-
 <img src="https://raw.githubusercontent.com/JustZet/LanguagePicker/refs/heads/main/assets/Screenshot_20260207_192512.png" align="right" width="150px"/>
 
 ## BottomSheetLanguagePicker.java
 ```java
 String language = Locale.US.getLanguage(); // en
-new BottomSheetLanguagePicker(language) Adding selected language (optional)
+new BottomSheetLanguagePicker(language) // Adding selected language (optional)
         .setLanguages(BottomSheetLanguagePicker.getAllLanguages().subList(0, 20)) // Setting first 20 languages
         .setActionListener(new BottomSheetLanguagePicker.ActionListener() {
             @Override
@@ -73,11 +68,17 @@ new BottomSheetLanguagePicker(language) Adding selected language (optional)
 
 #### Style:
 ```java
-.setTitleColor(getColor(R.color.black))
-.setItemTextColor(getColor(R.color.black))
-.setBackgroundColor(getColor(R.color.white))
-.setTitleLabel("Select language")
-.setSearchLabel("Search")
+.setTitleLabel("Choose language")
+.setSearchLabel("Search language")
+.setTitleColor(getColor(R.color.orange_dark))
+.setBackgroundColor(getColor(R.color.black))
+.setSearchContainerColor(getColor(R.color.black))
+.setSearchHintColor(getColor(R.color.red))
+.setSearchTextColor(getColor(R.color.blue))
+.setItemCheckColor(getColor(R.color.blue_very_dark))
+.setItemCheckCircleColor(getColor(R.color.blue_basic))
+.setItemTextColor(getColor(R.color.red))
 ```
+
 
 
