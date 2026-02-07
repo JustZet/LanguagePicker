@@ -20,7 +20,7 @@ Applies changes only when .show(fragmentManager, "tag") is called
 ### Install:
 ```gradle
 dependencies {
-		implementation 'com.github.JustZet:LanguagePicker:1.0.3'
+		implementation 'com.github.JustZet:LanguagePicker:1.0.4'
 }
 ```
 
@@ -79,4 +79,5 @@ new BottomSheetLanguagePicker(language) Adding selected language (optional)
 .setTitleLabel("Select language")
 .setSearchLabel("Search")
 ```
+
 
