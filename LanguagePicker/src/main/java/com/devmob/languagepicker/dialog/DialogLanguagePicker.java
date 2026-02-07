@@ -94,7 +94,7 @@ public class DialogLanguagePicker extends DialogFragment {
         if (searchContainerColor != null) binding.cvSearch.setBackgroundColor(searchContainerColor);
         if (searchLabel != null) binding.tietSearch.setHint(searchLabel);
         if (titleLabel != null) binding.tvTitle.setText(titleLabel);
-        if (languages == null || languages.isEmpty()) new ArrayList<>(LanguageHelper.getAllLanguages());
+        if (languages == null || languages.isEmpty()) languages = new ArrayList<>(LanguageHelper.getAllLanguages());
         initAdapter();
         bindKeyboardOpened(false);
     }
@@ -220,7 +220,9 @@ public class DialogLanguagePicker extends DialogFragment {
         this.itemCheckCircleColor = itemCheckCircleColor;
         return this;
     }
-
+    public List<Language> getAllLanguages() {
+        return new ArrayList<>(LanguageHelper.getAllLanguages());
+    }
     // endregion
     public interface ActionListener {
         void onSelect(Language language);

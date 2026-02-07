@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class BottomSheetLanguagePicker extends DialogFragment {
+public class BottomSheetLanguagePicker extends BottomSheetDialogFragment {
     private Context context;
     private @Nullable String languageCode = null;
 
@@ -78,7 +78,7 @@ public class BottomSheetLanguagePicker extends DialogFragment {
         if (searchContainerColor != null) binding.cvSearch.setBackgroundColor(searchContainerColor);
         if (searchLabel != null) binding.tietSearch.setHint(searchLabel);
         if (titleLabel != null) binding.tvTitle.setText(titleLabel);
-        if (languages == null || languages.isEmpty()) new ArrayList<>(LanguageHelper.getAllLanguages());
+        if (languages == null || languages.isEmpty()) languages = new ArrayList<>(LanguageHelper.getAllLanguages());
         initAdapter();
     }
     public void show(FragmentManager fragmentManager) {
@@ -195,7 +195,9 @@ public class BottomSheetLanguagePicker extends DialogFragment {
         this.itemCheckCircleColor = itemCheckCircleColor;
         return this;
     }
-
+    public List<Language> getAllLanguages() {
+        return new ArrayList<>(LanguageHelper.getAllLanguages());
+    }
     // endregion
     public interface ActionListener {
         void onSelect(Language language);

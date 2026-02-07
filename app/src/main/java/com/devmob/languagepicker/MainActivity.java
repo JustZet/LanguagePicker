@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                             selectedLanguage = language;
                         }
                     })
-                    .setLanguages(LanguageHelper.getAllLanguages().subList(0, 10))
+
                     .show(getSupportFragmentManager(), "Test");
         });
     }
