@@ -1,6 +1,15 @@
 <h1 align="center">🌐 LanguagePicker</h1>
 
-
+<p align="center">
+🌐 Modernized and sophisticated Language picker for android.
+</p>
+</br>
+<p align="center">
+  <a href="https://android-arsenal.com/api?level=21"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
+  <a href="https://github.com/JustZet/LanguagePicker"><img alt="Profile" src="https://img.shields.io/badge/github-LanguagePicker-orange?logo=github"/></a>
+  <a href="https://github.com/JustZet"><img alt="Profile" src="https://img.shields.io/badge/github-Zettie-blue?logo=github"/></a>
+</p> <br>>
+ 
 Applies changes only when .show(fragmentManager, "tag") is called
 | Class                                                   | Description                                                               |
 | --------------------------------------------------------| ------------------------------------------------------------------------- |
@@ -15,9 +24,9 @@ dependencies {
 }
 ```
 
-### Examples:
+<img src="https://raw.githubusercontent.com/JustZet/LanguagePicker/refs/heads/main/assets/Screenshot_20260207_192429.png" align="right" width="150px"/>
 
-`DialogLanguagePicker.java`
+## DialogLanguagePicker.java
 ```java
 String language = Locale.US.getLanguage(); // en
 new DialogLanguagePicker(language) Adding selected language (optional)
@@ -31,8 +40,24 @@ new DialogLanguagePicker(language) Adding selected language (optional)
         .show(getSupportFragmentManager(), "Dialog")
 ```
 
+#### Style:
+```java
+.setTitleColor(getColor(R.color.black))
+.setItemTextColor(getColor(R.color.black))
+.setBackgroundColor(getColor(R.color.white))
+.setTitleLabel("Select language")
+.setSearchLabel("Search")
+```
 
-`BottomSheetLanguagePicker.java`
+
+
+
+
+
+
+<img src="https://raw.githubusercontent.com/JustZet/LanguagePicker/refs/heads/main/assets/Screenshot_20260207_192512.png" align="right" width="150px"/>
+
+## BottomSheetLanguagePicker.java
 ```java
 String language = Locale.US.getLanguage(); // en
 new BottomSheetLanguagePicker(language) Adding selected language (optional)
@@ -45,3 +70,13 @@ new BottomSheetLanguagePicker(language) Adding selected language (optional)
         })
         .show(getSupportFragmentManager(), "BottomSheet");
 ```
+
+#### Style:
+```java
+.setTitleColor(getColor(R.color.black))
+.setItemTextColor(getColor(R.color.black))
+.setBackgroundColor(getColor(R.color.white))
+.setTitleLabel("Select language")
+.setSearchLabel("Search")
+```
+
