@@ -1,6 +1,7 @@
 package com.devmob.languagepicker.dialog;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
@@ -47,8 +48,8 @@ public class DialogLanguagePicker extends DialogFragment {
 
 
     private List<Language> languages = new ArrayList<>();
-    private Integer backgroundColor, titleColor, searchContainerColor, itemTextColor,
-            itemStrokeIconColor, itemCheckColor, itemCheckCircleColor = null;
+    private Integer backgroundColor, titleColor, searchContainerColor,
+    searchTextColor, searchHintColor, itemTextColor, itemStrokeIconColor, itemCheckColor, itemCheckCircleColor = null;
     private String titleLabel = "Languages";
     private String searchLabel = "Search";
     private boolean isSearchVisible = true;
@@ -89,12 +90,16 @@ public class DialogLanguagePicker extends DialogFragment {
         super.onViewCreated(view, savedInstanceState);
         binding.tvTitle.setVisibility(titleLabel != null ? View.VISIBLE : View.GONE);
         binding.cvSearch.setVisibility(isSearchVisible ? View.VISIBLE : View.GONE);
-        if (backgroundColor != null) binding.cvContainer.setCardBackgroundColor(backgroundColor);
         if (titleColor != null) binding.tvTitle.setTextColor(titleColor);
-        if (searchContainerColor != null) binding.cvSearch.setBackgroundColor(searchContainerColor);
+        if (searchContainerColor != null) binding.cvSearch.setCardBackgroundColor(ColorStateList.valueOf(searchContainerColor));
+        if (backgroundColor != null) binding.cvContainer.setCardBackgroundColor(ColorStateList.valueOf(backgroundColor));
+        if (searchHintColor != null) binding.tietSearch.setHintTextColor(searchHintColor);
+        if (searchTextColor != null) binding.tietSearch.setTextColor(searchTextColor);
+        if (searchTextColor != null) binding.ivSearch.setImageTintList(ColorStateList.valueOf(searchTextColor));
         if (searchLabel != null) binding.tietSearch.setHint(searchLabel);
         if (titleLabel != null) binding.tvTitle.setText(titleLabel);
         if (languages == null || languages.isEmpty()) languages = new ArrayList<>(LanguageHelper.getAllLanguages());
+
         initAdapter();
         bindKeyboardOpened(false);
     }
@@ -180,6 +185,11 @@ public class DialogLanguagePicker extends DialogFragment {
         return this;
     }
 
+    public DialogLanguagePicker setSearchHintColor(Integer searchHintColor) {
+        this.searchHintColor = searchHintColor;
+        return this;
+    }
+
     public DialogLanguagePicker setTitleLabel(String titleLabel) {
         this.titleLabel = titleLabel;
         return this;
@@ -192,6 +202,11 @@ public class DialogLanguagePicker extends DialogFragment {
 
     public DialogLanguagePicker setSearchVisible(boolean searchVisible) {
         isSearchVisible = searchVisible;
+        return this;
+    }
+
+    public DialogLanguagePicker setSearchTextColor(Integer searchTextColor) {
+        this.searchTextColor = searchTextColor;
         return this;
     }
 

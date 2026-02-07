@@ -31,15 +31,24 @@ public class MainActivity extends AppCompatActivity {
 
 
         fab_language.setOnClickListener(v -> {
-            new DialogLanguagePicker(selectedLanguage != null ? selectedLanguage.getLanguageCode() : null)
-                    .setActionListener(new DialogLanguagePicker.ActionListener() {
+            new BottomSheetLanguagePicker(selectedLanguage != null ? selectedLanguage.getLanguageCode() : null)
+                    .setTitleLabel("Choose language")
+                    .setSearchLabel("Search language")
+                    .setTitleColor(getColor(R.color.orange_dark))
+                    .setBackgroundColor(getColor(R.color.black))
+                    .setSearchContainerColor(getColor(R.color.black))
+                    .setSearchHintColor(getColor(R.color.red))
+                    .setSearchTextColor(getColor(R.color.blue))
+                    .setItemCheckColor(getColor(R.color.blue_very_dark))
+                    .setItemCheckCircleColor(getColor(R.color.blue_basic))
+                    .setItemTextColor(getColor(R.color.red))
+                    .setActionListener(new BottomSheetLanguagePicker.ActionListener() {
                         @Override
                         public void onSelect(Language language) {
                             selectedLanguage = language;
                         }
                     })
-
-                    .show(getSupportFragmentManager(), "Test");
+                    .show(getSupportFragmentManager());
         });
     }
 }

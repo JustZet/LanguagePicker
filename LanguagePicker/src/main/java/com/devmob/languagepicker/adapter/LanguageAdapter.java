@@ -1,5 +1,6 @@
 package com.devmob.languagepicker.adapter;
 
+import android.content.res.ColorStateList;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -36,9 +37,9 @@ public class LanguageAdapter extends RecyclerView.Adapter<LanguageViewHolder> {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         AdapterLanguageBinding binding = AdapterLanguageBinding.inflate(inflater, parent, false);
         if(itemCheckIconColor != null) binding.ivCheck.setColorFilter(itemCheckIconColor);
+        if(itemCheckCircleColor != null) binding.ivCheck.setStrokeColor(ColorStateList.valueOf(itemCheckCircleColor));
         if(itemTextColor != null) binding.tvName.setTextColor(itemTextColor);
         if(itemStrokeIconColor != null) binding.ivIcon.setColorFilter(itemStrokeIconColor);
-//        if(itemCheckCircleColor != null) binding.cv.setColorFilter(itemCheckCircleColor);
         return new LanguageViewHolder(binding, actionListener);
     }
     @Override
