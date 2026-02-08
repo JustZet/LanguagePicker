@@ -83,6 +83,21 @@ new BottomSheetLanguagePicker(language) // Adding selected language (optional)
 .setItemTextColor(getColor(R.color.red))
 ```
 
+## Language.java
+```java
+public class Language implements Cloneable {
+	private final int orderId;
+	private final String languageCode;
+	private final String languageName;
+	private final String countryCode;
+	private final String countryName;
+	private final Locale locale; // Locale(languageCode, countryCode)
+
+	private String getIcon() // Icon url
+}
+```
+
+
 
 
 
