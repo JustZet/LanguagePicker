@@ -8,7 +8,10 @@
   <a href="https://android-arsenal.com/api?level=21"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
   <a href="https://github.com/JustZet/LanguagePicker"><img alt="Profile" src="https://img.shields.io/badge/github-LanguagePicker-orange?logo=github"/></a>
   <a href="https://github.com/JustZet"><img alt="Profile" src="https://img.shields.io/badge/github-Zettie-blue?logo=github"/></a>
-</p> <br>>
+</p> <br>
+
+
+[![Watch the video](https://raw.githubusercontent.com/JustZet/LanguagePicker/refs/heads/main/assets/ChatGPT%20Image%20Feb%208%2C%202026%2C%2001_27_26%20PM.png)](https://youtu.be/z7hUyHIA6Wk?si=P-l4znM3BLASvj6K)
  
 Applies changes only when .show(fragmentManager, "tag") is called
 | Class                                                   | Description                                                               |
@@ -79,6 +82,7 @@ new BottomSheetLanguagePicker(language) // Adding selected language (optional)
 .setItemCheckCircleColor(getColor(R.color.blue_basic))
 .setItemTextColor(getColor(R.color.red))
 ```
+
 
 
 
