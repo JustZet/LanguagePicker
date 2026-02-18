@@ -24,7 +24,7 @@ Applies changes only when .show(fragmentManager, "tag") is called
 ### Install:
 ```gradle
 dependencies {
-		implementation 'com.github.JustZet:LanguagePicker:1.0.3'
+		implementation 'com.github.JustZet:LanguagePicker:1.0.6'
 }
 ```
 
@@ -97,6 +97,7 @@ public class Language implements Cloneable {
 	private String getIcon() // Icon url
 }
 ```
+
 
 
 
