@@ -29,7 +29,7 @@
             android:layout_margin="1dp"
             android:scaleType="centerCrop"
             app:strokeWidth="1dp"
-            app:strokeColor="@color/theme_text4"
+            app:strokeColor="@color/theme_text4_languagePicker"
             app:shapeAppearanceOverlay="@style/Overlay_App_RoundedCorners"
             android:elevation="0dp" />
 

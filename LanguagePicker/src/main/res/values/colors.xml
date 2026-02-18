@@ -10,4 +10,8 @@
     <color name="float_transparent_languagePicker">#00000000</color>
     <color name="theme_text3_languagePicker">#8B9298</color>
     <color name="transparent_languagePicker">#00000000</color>
+
+    <color name="theme_text2_languagePicker">#56595E</color>
+    <color name="theme_text4_languagePicker">#DADCDF</color>
+
 </resources>

@@ -32,14 +32,6 @@ public class MainActivity extends AppCompatActivity {
             new BottomSheetLanguagePicker(selectedLanguage != null ? selectedLanguage.getLanguageCode() : null)
                     .setTitleLabel("Choose language")
                     .setSearchLabel("Search language")
-                    .setTitleColor(getColor(R.color.orange_dark))
-                    .setBackgroundColor(getColor(R.color.black_languagePicker))
-                    .setSearchContainerColor(getColor(R.color.black_languagePicker))
-                    .setSearchHintColor(getColor(R.color.red))
-                    .setSearchTextColor(getColor(R.color.blue))
-                    .setItemCheckColor(getColor(R.color.blue_very_dark))
-                    .setItemCheckCircleColor(getColor(R.color.blue_basic))
-                    .setItemTextColor(getColor(R.color.red))
                     .setActionListener(new BottomSheetLanguagePicker.ActionListener() {
                         @Override
                         public void onSelect(Language language) {
