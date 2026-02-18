@@ -7,6 +7,7 @@
 <p align="center">
   <a href="https://android-arsenal.com/api?level=21"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
   <a href="https://github.com/JustZet/LanguagePicker"><img alt="Profile" src="https://img.shields.io/badge/github-LanguagePicker-orange?logo=github"/></a>
+  <a href="https://jitpack.io/#JustZet/LanguagePicker"><img alt="Profile" src="https://jitpack.io/v/JustZet/LanguagePicker.svg"/></a>
   <a href="https://github.com/JustZet"><img alt="Profile" src="https://img.shields.io/badge/github-Zettie-blue?logo=github"/></a>
 </p> <br>
 
@@ -96,6 +97,7 @@ public class Language implements Cloneable {
 	private String getIcon() // Icon url
 }
 ```
+
 
 
 
