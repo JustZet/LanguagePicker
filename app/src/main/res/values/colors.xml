@@ -1,5 +1,268 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="black_languagePicker">#FF000000</color>
+    <color name="black90">#111111</color>
+    <color name="black80">#222222</color>
+    <color name="black70">#333333</color>
+    <color name="black60">#444444</color>
+    <color name="black50">#555555</color>
+    <color name="black40">#666666</color>
+    <color name="black30">#777777</color>
+    <color name="black20">#888888</color>
+    <color name="black10">#999999</color>
+
     <color name="white">#FFFFFFFF</color>
+    <color name="white10">#1AFFFFFF</color>
+    <color name="white20">#33FFFFFF</color>
+    <color name="white30">#4DFFFFFF</color>
+    <color name="white40">#66FFFFFF</color>
+    <color name="white50">#80FFFFFF</color>
+    <color name="white60">#99FFFFFF</color>
+    <color name="white70">#B3FFFFFF</color>
+    <color name="white80">#CCFFFFFF</color>
+    <color name="white90">#E6FFFFFF</color>
+
+    <color name="blue_basic">#4C9BAF</color>
+    <color name="blue_very_dark">#0041FF</color>
+    <color name="blue_pale">#72A0C1</color>
+
+    <color name="paleRed">#FFD4D4</color>
+    <color name="paleOrange">#FFE7D4</color>
+
+    <color name="orange_pale">#FFF4E9</color>
+    <color name="red">#FF6B6B</color>
+    <color name="red_light">#FFAFAF</color>
+    <color name="red_dark">#B30000</color>
+    <color name="orange_dark">#CD7100</color>
+    <color name="green">#CAFFD3</color>
+    <color name="green_dark">#38B497</color>
+    <color name="orange">#FFE0C9</color>
+    <color name="pink">#FFC9D7</color>
+    <color name="blue">#C2E2FF</color>
+    <color name="green45">#75C6FFC2</color>
+    <color name="yellow">#FFFFC4</color>
+    <color name="yellow_dark">#D0D000</color>
+    <color name="lavender">#C8BEFF</color>
+    <color name="peach">#FFE2C3</color>
+    <color name="mint">#C9FFC9</color>
+    <color name="lilac">#E3C9FF</color>
+    <color name="salmon">#FFDBCC</color>
+    <color name="teal">#C9FFFF</color>
+    <color name="purple">#E3C9FF</color>
+    <color name="brown">#D2B48C</color>
+    <color name="lightOrange">#FFEDD1</color>
+    <color name="softPink">#FFDCE5</color>
+
+    <color name="paleBlue">#D9E7FF</color>
+    <color name="paleYellow">#FFFEC8</color>
+    <color name="softLavender">#D9D3FF</color>
+    <color name="lightPeach">#FFE8D6</color>
+    <color name="paleMint">#EFFFEF</color>
+    <color name="softLilac">#EFCBFF</color>
+    <color name="lightSalmon">#FFE3D3</color>
+    <color name="paleTeal">#D4FFFF</color>
+    <color name="softPurple">#EFCBFF</color>
+    <color name="lightBrown">#D8C3A3</color>
+    <color name="dark_purple">#33006F</color>
+    <color name="paleGray">#E0DCDC</color>
+    <color name="lightGray">#EBEBEB</color>
+    <color name="gray">#808080</color>
+    <color name="baby_blue">#2196E9</color>
+    <color name="blue_dark">#84BFFF</color>
+
+    <color name="transparent_languagePicker">#00000000</color>
+    <color name="transparent90">#19FFFFFF</color>
+    <color name="transparent80">#34FFFFFF</color>
+    <color name="transparent70">#4DFFFFFF</color>
+    <color name="transparent60">#66FFFFFF</color>
+
+    <color name="helper_shadow">#253C3C3C</color>
+    <color name="green_checked_languagePicker">#30804D</color>
+    <color name="gray_unchecked">#C1C5C3</color>
+    <color name="unselected_item">#D6DBFF</color>
+
+
+
+
+    <color name="colorDefaultGray">#dddddd</color>
+    <color name="colorMediumGray">#c7cdd4</color>
+    <color name="colorDarkGray">#1A1C1E</color>
+    <color name="colorLightButton">#E8E7FB</color>
+    <color name="colorLightBlue">#edf5f8</color>
+    <color name="float_transparent_languagePicker">#00000000</color>
+
+    <!-- Pomodoro -->
+    <color name="pomodoro_start">#CB22BF65</color>
+    <color name="pomodoro_end">#CDE52221</color>
+    <color name="pomodoro_pause">#CB3FA3D0</color>
+    <color name="pomodoro_resume">#CBF6CA2B</color>
+    <color name="pomodoro_restart">#D3F67C2B</color>
+
+    <!-- Summary -->
+    <color name="summary_start">#22BF8D</color>
+    <color name="summary_end">#CDE52221</color>
+    <color name="summary_pause">#CBF6CA2B</color>
+    <color name="summary_resume">#E23FA3D0</color>
+
+    <!-- Organisation -->
+    <color name="role_admin">#FF2F2F</color>
+    <color name="role_member">#2196E9</color>
+    <color name="role_not_confirmed">#A6A6A6</color>
+
+
+
+    <!-- Dynamic colors - Light theme -->
+    <color name="seed">#38b492</color>
+    <color name="md_primary">#21A995</color>
+    <color name="md_primaryDark">#0F6F60</color>
+    <color name="md_onPrimary">#FBFFFD</color>
+    <color name="md_primaryContainer">#E2F8F2</color>
+    <color name="md_onPrimaryContainer">#002823</color>
+    <color name="md_secondary">#EDA982</color>
+    <color name="md_onSecondary">#66402C</color>
+    <color name="md_secondaryContainer">#FFF4E9</color>
+    <color name="md_onSecondaryContainer">#4C9BAF</color>
+    <color name="md_tertiary">#84BFFF</color>
+    <color name="md_onTertiary">#FFFFFF</color>
+    <color name="md_tertiaryContainer">#82F8CF</color>
+    <color name="md_onTertiaryContainer">#002117</color>
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_errorContainer">#FFDAD6</color>
+    <color name="md_onError">#FFFFFF</color>
+    <color name="md_onErrorContainer">#410002</color>
+    <color name="md_background">#F3F5FF</color>
+    <color name="md_onBackground">#1A1C1E</color>
+    <color name="md_surface_languagePicker">#F6F6F6</color>
+    <color name="md_onSurface_languagePicker">#1A1C1E</color>
+    <color name="md_surfaceContainer_languagePicker">#FFFFFF</color>
+    <color name="md_surfaceVariant">#DFE3E3</color>
+    <color name="md_onSurfaceVariant">#42474E</color>
+    <color name="md_outline">#73777F</color>
+    <color name="md_inverseOnSurface">#F1F0F4</color>
+    <color name="md_inverseSurface">#2F3033</color>
+    <color name="md_inversePrimary">#9CCAFF</color>
+    <color name="md_shadow">#000000</color>
+    <color name="md_surfaceTint">#0062A1</color>
+    <color name="md_outlineVariant">#C2C7CF</color>
+    <color name="md_scrim">#000000</color>
+    <color name="md_placeholderUserAvatar">#fddce5</color>
+    <color name="md_placeholderOrganisationLogo">#c3e2ff</color>
+    <color name="md_placeholderOnUserAvatar">#120000</color>
+    <color name="md_placeholderOnOrganisationLogo">#000A14</color>
+    <color name="md_dialogBackground">#F6F6F6</color>
+    <color name="md_colorPrimary30">#3003DAC5</color>
+    <color name="md_transparent90">#E6FFFFFF</color>
+    <color name="md_colorDisabled">#000000</color>
+    <color name="md_onColorDisabled">#BDBDBD</color>
+
+    <color name="md_colorNoteBackground">#FFFFC4</color>
+    <color name="md_colorTaskBackground">#FFE0C9</color>
+    <color name="md_colorOnNoteBackground">#232323</color>
+    <color name="md_colorOnTaskBackground">#232323</color>
+
+    <!-- Task cards -->
+    <color name="md_pocket_doing">#c3e2ff</color>
+    <color name="md_pocket_planned">#fbfbda</color>
+    <color name="md_pocket_toDo">#feedd5</color>
+    <color name="md_pocket_done">#deffde</color>
+    <color name="md_pocket_doingDark">#66B5FF</color>
+    <color name="md_pocket_plannedDark">#B1A74D</color>
+    <color name="md_pocket_toDoDark">#FFBF63</color>
+    <color name="md_pocket_doneDark">#52C852</color>
+
+    <!-- Task -->
+    <color name="md_task_toDo">#f0e5d6</color>
+    <color name="md_task_justStarted">#faebd6</color>
+    <color name="md_task_earlyOn">#f8f4c3</color>
+    <color name="md_task_almostHalf">#e9f2ca</color>
+    <color name="md_task_moreThanHalf">#ebfcdf</color>
+    <color name="md_task_almostDone">#e3f9d7</color>
+    <color name="md_task_done">#d2f9d6</color>
+    <color name="md_task_toDoDark">#9A5631</color>
+    <color name="md_task_plannedDark">#916731</color>
+    <color name="md_task_doingDark">#916731</color>
+    <color name="md_task_almostHalfDark">#7C952E</color>
+    <color name="md_task_moreThanHalfDark">#618E2D</color>
+    <color name="md_task_almostDoneDark">#508E2B</color>
+    <color name="md_task_doneDark">#2C8F5C</color>
+
+    <!-- Chat -->
+    <color name="md_chatReceivedBackground">#FFFFFF</color>
+    <color name="md_chatReceivedText">#000000</color>
+    <color name="md_chatReceivedName">#117E68</color>
+    <color name="md_chatReceivedTextLink">@color/orange_dark</color>
+    <color name="md_chatReceivedOnBackground">#E2F8F2</color>
+    <color name="md_chatSentName">#FFFFFF</color>
+    <color name="md_chatSentBackground">#3AB593</color>
+    <color name="md_chatSentText">#FFFFFF</color>
+    <color name="md_chatSentTextLink">@color/orange</color>
+    <color name="md_chatSentOnBackground">#80FFFFFF</color>
+    <color name="md_chatSentRecordingName">#FFFFFF</color>
+    <color name="md_chatSentRecordingBackground">@color/orange</color>
+    <color name="md_chatSentRecordingText">@color/orange_dark</color>
+    <color name="md_chatSentRecordingTextLink">@color/orange_dark</color>
+    <color name="md_chatSentRecordingOnBackground">#80FFFFFF</color>
+
+    <!-- Kudos -->
+    <color name="md_kudosNeedsImprovement">#f20000</color>
+    <color name="md_kudosFair">#fb9f00</color>
+    <color name="md_kudosGood">#f8df03</color>
+    <color name="md_kudosGreat">#cdd300</color>
+    <color name="md_kudosExcellent">#80cc00</color>
+
+    <!-- Pomodoro -->
+    <color name="md_pomodoroContainer">#FFB8AB</color>
+    <color name="md_pomodoroShortContainer">#d7f9ed</color>
+    <color name="md_pomodoroLongContainer">#d3e9f8</color>
+    <color name="md_onPomodoroContainer">#D00A0A</color>
+    <color name="md_onPomodoroShortContainer">#26BF7A</color>
+    <color name="md_onPomodoroLongContainer">#2e85ac</color>
+
+    <!-- Notification -->
+    <color name="md_notification_new">#FFE9DD</color>
+    <color name="md_notification_late">#FFE2DA</color>
+    <color name="md_notification_done">#E4FFE8</color>
+    <color name="md_notification_kudos">#FDFFE0</color>
+    <color name="md_notification_update">#DAEDFF</color>
+    <color name="md_notification_invite">#DFFFED</color>
+    <color name="md_notification_newDark">#CD7100</color>
+    <color name="md_notification_lateDark">#CD7100</color>
+    <color name="md_notification_doneDark">#38B497</color>
+    <color name="md_notification_kudosDark">#CD7100</color>
+    <color name="md_notification_updateDark">#72A0C1</color>
+    <color name="md_notification_inviteDark">#DFFFED</color>
+
+    <!-- Priorities -->
+    <color name="md_priority_flag_standard">#323437</color>
+    <color name="md_priority_flag_important">#1495DA</color>
+    <color name="md_priority_flag_urgent">#E67823</color>
+    <color name="md_priority_flag_important_and_urgent">#E31E1E</color>
+    <color name="md_priority_standard">#141212</color>
+    <color name="md_priority_important">#2A2C2F</color>
+    <color name="md_priority_urgent">#FF6B6B</color>
+    <color name="md_priority_important_and_urgent">#B30000</color>
+
+    <!-- Leaderboard -->
+    <color name="md_leaderboard">#FBFFFD</color>
+    <color name="md_leaderboard1">#FFFEC8</color>
+    <color name="md_leaderboard2">#D9E7FF</color>
+    <color name="md_leaderboard3">#FFE7D4</color>
+
+    <!-- Text -->
+    <color name="md_field">#85F8FFFD</color>
+    <color name="theme_text4">#DADCDF</color>
+    <color name="theme_text3_languagePicker">#8B9298</color>
+    <color name="theme_text2">#56595E</color>
+    <color name="theme_text1_languagePicker">#323437</color>
+    <color name="theme_text_languagePicker">#202020</color>
+    <color name="theme_stroke">#D7D3FD</color>
+
+    <color name="md_pause">#FFFEC8</color>
+    <color name="md_resume">#D0FCD7</color>
+    <color name="md_end">#FFDBDB</color>
+
+    <color name="md_tag">#047697</color>
+    <color name="md_mention">#01B374</color>
+
+    <color name="color_tag_personal">#0D4462</color>
 </resources>

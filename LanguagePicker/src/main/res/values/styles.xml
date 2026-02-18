@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="TextView_Header" parent="TextAppearance.MaterialComponents.Headline3">
+    <style name="TextView_Header_Base" parent="TextAppearance.MaterialComponents.Headline3">
 <!--        <item name="fontFamily">@font/asap_medium</item>-->
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:letterSpacing">0.05</item>
         <item name="android:textSize">20dp</item>
     </style>
-    <style name="TextInputEditText_MultiLine" parent="ThemeOverlay.Material3.TextInputEditText.FilledBox">
+    <style name="TextInputEditText_MultiLine_Base" parent="ThemeOverlay.Material3.TextInputEditText.FilledBox">
         <item name="android:inputType">textMultiLine|textCapSentences|textAutoCorrect</item>
 <!--        <item name="android:fontFamily">@font/asap</item>-->
         <item name="android:padding">12dp</item>
@@ -19,50 +19,50 @@
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">top</item>
         <item name="boxStrokeWidth">0dp</item>
-        <item name="startIconTint">@color/theme_text</item>
-        <item name="android:textColor">@color/theme_text</item>
-        <item name="endIconDrawable">@color/transparent</item>
+        <item name="startIconTint">@color/theme_text_languagePicker</item>
+        <item name="android:textColor">@color/theme_text_languagePicker</item>
+        <item name="endIconDrawable">@color/transparent_languagePicker</item>
         <item name="boxBackgroundColor">?colorPrimaryContainer</item>
-        <item name="android:textColorHint">@color/theme_text3</item>
+        <item name="android:textColorHint">@color/theme_text3_languagePicker</item>
 <!--        <item name="android:scrollbarThumbVertical">@drawable/rounded_scrollbar_primary</item>-->
         <item name="android:scrollbars">vertical</item>
     </style>
 
-    <style name="TextInputEditText_SingleLine" parent="TextInputEditText_MultiLine">
+    <style name="TextInputEditText_SingleLine_Base" parent="TextInputEditText_MultiLine_Base">
         <item name="android:inputType">textAutoCorrect|textCapSentences</item>
         <item name="android:maxLines">1</item>
         <item name="android:minLines">1</item>
         <item name="android:singleLine">true</item>
     </style>
-    <style name="ShapeAppearanceOverlay_App_RoundedCorners">
+    <style name="Overlay_App_RoundedCorners">
         <item name="cornerSize">50%</item>
     </style>
-    <style name="TextView_Title" parent="TextAppearance.MaterialComponents.Subtitle1">
+    <style name="TextView_Title_Base" parent="TextAppearance.MaterialComponents.Subtitle1">
 <!--        <item name="fontFamily">@font/asap_medium</item>-->
         <item name="android:textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
         <item name="android:lineSpacingExtra">3dp</item>
         <item name="android:textSize">16dp</item>
-        <item name="android:textColor">@color/theme_text</item>
+        <item name="android:textColor">@color/theme_text_languagePicker</item>
     </style>
 
     <style name="Dialog_Base" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
-        <item name="colorSurface">@color/md_surfaceContainer</item>
+        <item name="colorSurface">@color/md_surfaceContainer_languagePicker</item>
         <item name="colorOnSurface">?attr/colorOnBackground</item>
-        <item name="android:textColor">@color/theme_text</item>
-        <item name="alertDialogStyle">@style/MaterialAlertDialog_App</item>
+        <item name="android:textColor">@color/theme_text_languagePicker</item>
+        <item name="alertDialogStyle">@style/AlertDialog_App</item>
         <item name="buttonBarPositiveButtonStyle">@style/Snackbar_ButtonStyle</item>
         <item name="buttonBarNegativeButtonStyle">@style/Dismiss_MaterialButton</item>
     </style>
-    <style name="MaterialAlertDialog_App" parent="MaterialAlertDialog.Material3">
-        <item name="shapeAppearance">@style/ShapeAppearanceOverlay_App_15dpCorners</item>
+    <style name="AlertDialog_App" parent="MaterialAlertDialog.Material3">
+        <item name="shapeAppearance">@style/Overlay_App_15dpCorners</item>
     </style>
-    <style name="ShapeAppearanceOverlay_App_15dpCorners" parent="">
+    <style name="Overlay_App_15dpCorners" parent="">
         <item name="cornerSize">15%</item>
     </style>
     <style name="Snackbar_ButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Snackbar">
         <item name="android:textColor">?colorPrimary</item>
-        <item name="android:backgroundTint">@color/md_surfaceContainer</item>
+        <item name="android:backgroundTint">@color/md_surfaceContainer_languagePicker</item>
     </style>
     <style name="Dismiss_MaterialButton" parent="ThemeOverlay.Material3.Button.TextButton">
         <item name="android:textColor">@color/theme_text2</item>

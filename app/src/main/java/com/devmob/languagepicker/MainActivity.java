@@ -9,8 +9,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.devmob.languagepicker.bottomsheet.BottomSheetLanguagePicker;
-import com.devmob.languagepicker.dialog.DialogLanguagePicker;
-import com.devmob.languagepicker.helpers.LanguageHelper;
 import com.devmob.languagepicker.models.Language;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 
@@ -35,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
                     .setTitleLabel("Choose language")
                     .setSearchLabel("Search language")
                     .setTitleColor(getColor(R.color.orange_dark))
-                    .setBackgroundColor(getColor(R.color.black))
-                    .setSearchContainerColor(getColor(R.color.black))
+                    .setBackgroundColor(getColor(R.color.black_languagePicker))
+                    .setSearchContainerColor(getColor(R.color.black_languagePicker))
                     .setSearchHintColor(getColor(R.color.red))
                     .setSearchTextColor(getColor(R.color.blue))
                     .setItemCheckColor(getColor(R.color.blue_very_dark))

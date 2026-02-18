@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  POCKETS  -->
+    <attr name="colorPocketDoing" format="color" />
+    <attr name="colorPocketPlanned" format="color" />
+    <attr name="colorPocketToDo" format="color" />
+    <attr name="colorPocketDone" format="color" />
+    <attr name="colorOnPocketDoing" format="color" />
+    <attr name="colorOnPocketPlanned" format="color" />
+    <attr name="colorOnPocketToDo" format="color" />
+    <attr name="colorOnPocketDone" format="color" />
+
+    <!-- TASK -->
+    <attr name="colorTaskToDo" format="color" />
+    <attr name="colorTaskJustStarted" format="color" />
+    <attr name="colorTaskEarlyOn" format="color" />
+    <attr name="colorTaskAlmostHalf" format="color" />
+    <attr name="colorTaskMoreThanHalf" format="color" />
+    <attr name="colorTaskAlmostDone" format="color" />
+    <attr name="colorTaskDone" format="color" />
+    <attr name="colorOnTaskToDo" format="color" />
+    <attr name="colorOnTaskPlanned" format="color" />
+    <attr name="colorOnTaskDoing" format="color" />
+    <attr name="colorOnTaskAlmostHalf" format="color" />
+    <attr name="colorOnTaskMoreThanHalf" format="color" />
+    <attr name="colorOnTaskAlmostDone" format="color" />
+    <attr name="colorOnTaskDone" format="color" />
+
+    <!-- POMODORO  -->
+    <attr name="colorPomodoro" format="color" />
+    <attr name="colorPomodoroShort" format="color" />
+    <attr name="colorPomodoroLong" format="color" />
+    <attr name="colorOnPomodoro" format="color" />
+    <attr name="colorOnPomodoroShort" format="color" />
+    <attr name="colorOnPomodoroLong" format="color" />
+    <attr name="colorOnPomodoroEnded" format="color" />
+    <attr name="colorPomodoroContainer" format="color" />
+
+    <!-- CHAT - Received -->
+    <attr name="chatReceivedBackground" format="color" />
+    <attr name="chatReceivedText" format="color" />
+    <attr name="chatReceivedName" format="color" />
+    <attr name="chatReceivedTextLink" format="color" />
+    <attr name="chatReceivedOnBackground" format="color" />
+    <!-- CHAT - sent -->
+    <attr name="chatSentName" format="color" />
+    <attr name="chatSentBackground" format="color" />
+    <attr name="chatSentText" format="color" />
+    <attr name="chatSentTextLink" format="color" />
+    <attr name="chatSentOnBackground" format="color" />
+    <!-- CHAT - sent recording -->
+    <attr name="chatSentRecordingName" format="color" />
+    <attr name="chatSentRecordingBackground" format="color" />
+    <attr name="chatSentRecordingText" format="color" />
+    <attr name="chatSentRecordingTextLink" format="color" />
+    <attr name="chatSentRecordingOnBackground" format="color" />
+
+    <!-- KUDOS  -->
+    <attr name="kudosNeedsImprovement" format="color" />
+    <attr name="kudosFair" format="color" />
+    <attr name="kudosGood" format="color" />
+    <attr name="kudosGreat" format="color" />
+    <attr name="kudosExcellent" format="color" />
+    <!-- LEADERBOARD  -->
+    <attr name="colorLeaderboard" format="color" />
+    <attr name="colorLeaderboard1" format="color" />
+    <attr name="colorLeaderboard2" format="color" />
+    <attr name="colorLeaderboard3" format="color" />
+
+
+    <!-- NOTIFICATION  -->
+    <attr name="colorNotificationNew" format="color" />
+    <attr name="colorOnNotificationNew" format="color" />
+    <attr name="colorNotificationLate" format="color" />
+    <attr name="colorOnNotificationLate" format="color" />
+    <attr name="colorNotificationDone" format="color" />
+    <attr name="colorOnNotificationDone" format="color" />
+    <attr name="colorNotificationKudos" format="color" />
+    <attr name="colorOnNotificationKudos" format="color" />
+    <attr name="colorNotificationUpdate" format="color" />
+    <attr name="colorOnNotificationUpdate" format="color" />
+    <attr name="colorNotificationInvite" format="color" />
+    <attr name="colorOnNotificationInvite" format="color" />
+
+    <!-- Priority flags -->
+    <attr name="colorPriorityFlagStandard" format="color" />
+    <attr name="colorPriorityFlagImportant" format="color" />
+    <attr name="colorPriorityFlagUrgent" format="color" />
+    <attr name="colorPriorityFlagImportantAndUrgent" format="color" />
+    <attr name="colorPriorityStandard" format="color" />
+    <attr name="colorPriorityImportant" format="color" />
+    <attr name="colorPriorityUrgent" format="color" />
+    <attr name="colorPriorityImportantAndUrgent" format="color" />
+
+
+    <!-- Placeholders   -->
+    <attr name="placeholderUserAvatar" format="color" />
+    <attr name="placeholderOrganisationLogo" format="color" />
+    <attr name="placeholderOnUserAvatar" format="color" />
+    <attr name="placeholderOnOrganisationLogo" format="color" />
+
+    <attr name="colorBackground" format="color" />
+    <attr name="colorDialogBackground" format="color" />
+    <attr name="colorText" format="color" />
+    <attr name="colorText1" format="color" />
+    <attr name="colorText2" format="color" />
+    <attr name="colorText3" format="color" />
+    <attr name="colorText4" format="color" />
+
+    <attr name="colorStroke" format="color" />
+    <attr name="colorPrimary30" format="color" />
+    <attr name="colorDefault" format="color" />
+    <attr name="colorDarkGray" format="color" />
+
+
+    <attr name="colorInputField" format="color" />
+    <attr name="colorUncheckedChip" format="color" />
+    <attr name="colorTransparent90" format="color" />
+
+    <attr name="colorPause" format="color" />
+    <attr name="colorResume" format="color" />
+    <attr name="colorEnd" format="color" />
+
+
+
+    <attr name="colorDisabled" format="color" />
+    <attr name="colorOnDisabled" format="color" />
+
+
+    <attr name="colorSwitchTask" format="color" />
+    <attr name="colorSwitchNote" format="color" />
+    <attr name="colorOnSwitchTask" format="color" />
+    <attr name="colorOnSwitchNote" format="color" />
+
+    <attr name="colorTag" format="color" />
+    <attr name="colorMention" format="color" />
+
+
+    <attr name="colorTagPersonal" format="color" />
+
+    <declare-styleable name="InlineSearchBar">
+        <attr name="searchHint" format="string" />
+        <attr name="searchIcon" format="reference" />
+        <attr name="showClearButton" format="boolean" />
+        <attr name="searchDebounceMs" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AppWidgetAttrs">
+        <attr name="appWidgetPadding" format="dimension" />
+        <attr name="appWidgetInnerRadius" format="dimension" />
+        <attr name="appWidgetRadius" format="dimension" />
+    </declare-styleable>
+</resources>

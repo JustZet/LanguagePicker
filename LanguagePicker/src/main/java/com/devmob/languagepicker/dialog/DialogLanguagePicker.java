@@ -2,7 +2,6 @@ package com.devmob.languagepicker.dialog;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -10,7 +9,6 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
@@ -24,17 +22,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.devmob.languagepicker.R;
 import com.devmob.languagepicker.adapter.LanguageAdapter;
-import com.devmob.languagepicker.databinding.BottomsheetLanguagePickerBinding;
 import com.devmob.languagepicker.databinding.DialogLanguagePickerBinding;
 import com.devmob.languagepicker.helpers.LanguageHelper;
 import com.devmob.languagepicker.managers.DialogManager;
 import com.devmob.languagepicker.models.Language;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 
 public class DialogLanguagePicker extends DialogFragment {
@@ -74,7 +68,7 @@ public class DialogLanguagePicker extends DialogFragment {
     public void onStart() {
         super.onStart();
         if (getDialog() != null && getDialog().getWindow() != null) {
-            getDialog().getWindow().setBackgroundDrawableResource(R.color.transparent);
+            getDialog().getWindow().setBackgroundDrawableResource(R.color.transparent_languagePicker);
         }
         DialogManager.with(getDialog())
                 .setCancelable(true)
