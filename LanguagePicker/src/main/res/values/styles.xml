@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="TextView.Header" parent="TextAppearance.MaterialComponents.Headline3">
+    <style name="TextView_Header" parent="TextAppearance.MaterialComponents.Headline3">
 <!--        <item name="fontFamily">@font/asap_medium</item>-->
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:letterSpacing">0.05</item>
         <item name="android:textSize">20dp</item>
     </style>
-    <style name="TextInputEditText.MultiLine" parent="ThemeOverlay.Material3.TextInputEditText.FilledBox">
+    <style name="TextInputEditText_MultiLine" parent="ThemeOverlay.Material3.TextInputEditText.FilledBox">
         <item name="android:inputType">textMultiLine|textCapSentences|textAutoCorrect</item>
 <!--        <item name="android:fontFamily">@font/asap</item>-->
         <item name="android:padding">12dp</item>
@@ -28,16 +28,16 @@
         <item name="android:scrollbars">vertical</item>
     </style>
 
-    <style name="TextInputEditText.SingleLine" parent="TextInputEditText.MultiLine">
+    <style name="TextInputEditText_SingleLine" parent="TextInputEditText_MultiLine">
         <item name="android:inputType">textAutoCorrect|textCapSentences</item>
         <item name="android:maxLines">1</item>
         <item name="android:minLines">1</item>
         <item name="android:singleLine">true</item>
     </style>
-    <style name="ShapeAppearanceOverlay.App.RoundedCorners" parent="">
+    <style name="ShapeAppearanceOverlay_App_RoundedCorners">
         <item name="cornerSize">50%</item>
     </style>
-    <style name="TextView.Title" parent="TextAppearance.MaterialComponents.Subtitle1">
+    <style name="TextView_Title" parent="TextAppearance.MaterialComponents.Subtitle1">
 <!--        <item name="fontFamily">@font/asap_medium</item>-->
         <item name="android:textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
@@ -46,25 +46,25 @@
         <item name="android:textColor">@color/theme_text</item>
     </style>
 
-    <style name="Dialog.Base" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+    <style name="Dialog_Base" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
         <item name="colorSurface">@color/md_surfaceContainer</item>
         <item name="colorOnSurface">?attr/colorOnBackground</item>
         <item name="android:textColor">@color/theme_text</item>
-        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
-        <item name="buttonBarPositiveButtonStyle">@style/SnackbarButtonStyle</item>
-        <item name="buttonBarNegativeButtonStyle">@style/DismissMaterialButton</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog_App</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Snackbar_ButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Dismiss_MaterialButton</item>
     </style>
-    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.Material3">
-        <item name="shapeAppearance">@style/ShapeAppearanceOverlay.App.15dpCorners</item>
+    <style name="MaterialAlertDialog_App" parent="MaterialAlertDialog.Material3">
+        <item name="shapeAppearance">@style/ShapeAppearanceOverlay_App_15dpCorners</item>
     </style>
-    <style name="ShapeAppearanceOverlay.App.15dpCorners" parent="">
+    <style name="ShapeAppearanceOverlay_App_15dpCorners" parent="">
         <item name="cornerSize">15%</item>
     </style>
-    <style name="SnackbarButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Snackbar">
+    <style name="Snackbar_ButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Snackbar">
         <item name="android:textColor">?colorPrimary</item>
         <item name="android:backgroundTint">@color/md_surfaceContainer</item>
     </style>
-    <style name="DismissMaterialButton" parent="ThemeOverlay.Material3.Button.TextButton">
+    <style name="Dismiss_MaterialButton" parent="ThemeOverlay.Material3.Button.TextButton">
         <item name="android:textColor">@color/theme_text2</item>
         <item name="android:elevation">0dp</item>
         <item name="android:backgroundTint">#00000000</item>

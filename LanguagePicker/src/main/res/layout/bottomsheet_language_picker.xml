@@ -29,7 +29,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textAlignment="center"
-            style="@style/TextView.Header"
+            style="@style/TextView_Header"
             android:textColor="@color/theme_text1"
             android:text="Languages"/>
     </LinearLayout>
@@ -61,7 +61,7 @@
                 app:tint="@color/theme_text3" />
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/tietSearch"
-                style="@style/TextInputEditText.SingleLine"
+                style="@style/TextInputEditText_SingleLine"
                 android:layout_width="0dp"
                 android:backgroundTint="@color/transparent"
                 android:layout_height="wrap_content"
